@@ -93,6 +93,9 @@ mysql> select    uid,type,status,ctime,dtime     from     er  where uid in (5601
 +----------+--------+---------------------+---------------------+
 5 rows in set (0.00 sec)
 
+mysql> update  er   set status=0  where uid in (56012821,56012891,56012916,56012928,56012949);
+Query OK, 5 rows affected (0.00 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
 
 
 
